@@ -26,24 +26,6 @@ Example:
 python smt_z3_general.py --instances_path C:\Users\Gayed\Desktop\SMT\src\Instances --file_name 8x8.txt
 
 
-smt_LIBv2_base
-- It is the script file that you can use to produce the smt encoding, in the LIBv2 syntax, for the points 1-4.
-- It takes two parameters the path to the folder where the instances are stored and the name of the instance to solve.
-- It will only produce the encoding of the problem in the LIBv2 syntax, then to chek the satisfiablity of the encoding 
-  you can simply copy and paste it into the online Z3 Online Demonstrator (https://compsys-tools.ens-lyon.fr/z3/index.php).
-  Of course the provided solution will not be in therequired format.
-Example:
-python smt_LIBv2_base.py --instances_path C:\Users\Gayed\Desktop\SMT\src\Instances --file_name 8x8.txt
-
-smt_LIBv2_general
-- It is the script file that you can use to produce the smt encoding, in the LIBv2 syntax, for the points 5,6.
-- It takes two parameters the path to the folder where the instances are stored and the name of the instance to solve.
-- It will only produce the encoding of the problem in the LIBv2 syntax, then to chek the satisfiablity of the encoding 
-  you can simply copy and paste it into the online Z3 Online Demonstrator (https://compsys-tools.ens-lyon.fr/z3/index.php).
-  Of course the provided solution will not be in therequired format.
-Example:
-python smt_LIBv2_base.py --instances_path C:\Users\Gayed\Desktop\SMT\src\Instances --file_name 8x8.txt
-
 
 Solution Plot
 I have also created a script to better visualize the solutions. 
