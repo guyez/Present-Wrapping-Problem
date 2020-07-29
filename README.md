@@ -1,4 +1,4 @@
-# Combinatorial-Decision-Making-and-Optimization
+# Combinatorial Decision Making and Optimization
 This project work is about modelling and solving a combinatorial decision problem with Constraint Programming (CP), and propositional SATisfiability (SAT) or its extension to
 Satisfiability Modulo Theories (SMT). 
 
